@@ -1,0 +1,6 @@
+[submodule "discord-rpc"]
+	path = discord-rpc
+	url = https://github.com/discordapp/discord-rpc
+[submodule "godot-cpp"]
+	path = godot-cpp
+	url = https://github.com/GodotNativeTools/godot-cpp
