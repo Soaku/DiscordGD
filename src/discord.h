@@ -1,6 +1,6 @@
 #ifndef DISCORD_H
 #define DISCORD_H
-#define PROP(type, name) type name; void Discord::set_##name(type nw); type Discord::get_##name();
+#define PROP(type, name) type name; void set_##name(type nw); type get_##name();
 
 #include <Godot.hpp>
 #include <Node.hpp>
@@ -22,8 +22,8 @@ namespace godot {
 			PROP(String, party_id)
 			PROP(int, party_size);
 			PROP(int, party_max);
-			PROP(long long, start_time);
-			PROP(long long, end_time);
+			PROP(int64_t, start_time);
+			PROP(int64_t, end_time);
 			PROP(String, spectate);
 			PROP(String, join);
 

@@ -16,8 +16,8 @@ void Discord::_register_methods() {
 	REGISTER(String, small_image_text, "");
 	REGISTER(int, party_size, 0);
 	REGISTER(int, party_max, 0);
-	REGISTER(long long, start_time, 0);
-	REGISTER(long long, end_time, 0);
+	REGISTER(int64_t, start_time, 0);
+	REGISTER(int64_t, end_time, 0);
 	REGISTER(String, spectate, "");
 	REGISTER(String, join, "");
 }
@@ -37,8 +37,8 @@ DEFPROP(String, large_image_text);
 DEFPROP(String, small_image_text);
 DEFPROP(int, party_size);
 DEFPROP(int, party_max);
-DEFPROP(long long, start_time);
-DEFPROP(long long, end_time);
+DEFPROP(int64_t, start_time);
+DEFPROP(int64_t, end_time);
 DEFPROP(String, spectate);
 DEFPROP(String, join);
 
