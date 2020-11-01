@@ -1,3 +1,14 @@
+> # Not actively maintained
+> 
+> 1. Discord RPC has been deprecated in favor of [Game SDK].
+> 2. I'm not using this personally anymore.
+> 3. It's troublesome for me to resolve technical problems from Windows users because I don't own Windows.
+>
+> You should try https://github.com/WesleiRamos/Godot-Rich-Presence as an alternative. It's probably better.
+> Or write your own library with [Game SDK].
+
+[Game SDK]: https://discord.com/developers/docs/game-sdk/sdk-starter-guide
+
 # DiscordGD
 
 Discord Rich Presence for Godot Game Engine 3.1, using GDNative.
